@@ -5,7 +5,7 @@ VALAC=valac
 VALAFLAGS=--pkg vte-2.91 --pkg gtk+-3.0 --fatal-warnings
 INSTALL=install -D
 
-.PHONY: all install install_taterm
+.PHONY: all install install_taterm clean
 
 all: taterm
 install: install_taterm
@@ -18,3 +18,6 @@ install: install_taterm
 
 install_taterm: taterm
 	$(INSTALL) -m755 $^ $(DESTDIR)$(PREFIX)/bin/$^
+
+clean:
+	-rm taterm
