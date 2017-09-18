@@ -24,13 +24,25 @@ using Pango;
 const string FONT = "11";
 const double FONT_SCALE_STEP = 0.1;
 const string[] COLORS = {
-	"#000000", "#c00000", "#00c000", "#c0c000",
-	"#0000c0", "#c000c0", "#00c0c0", "#c0c0c0",
-	"#3f3f3f", "#ff3f3f", "#3fff3f", "#ffff3f",
-	"#3f3fff", "#ff3fff", "#3fffff", "#ffffff"
+	"#080808080808",
+	"#c08c535350ea",
+	"#7d169a004814",
+	"#ba208abd3333",
+	"#400c62957aad",
+	"#ba2055bc86b9",
+	"#4db49a009460",
+	"#cbcbc7c7bbbb",
+	"#7373710a6c38",
+	"#e9825c2859c0",
+	"#8c58be243333",
+	"#e315a53e3333",
+	"#5285a6d9e315",
+	"#e315602c9ed1",
+	"#5824c2f5ba20",
+	"#f4c0f0bce719"
 };
 
-const string FG_COLOR = "#c0c0c0";
+const string FG_COLOR = "#ffffff";
 const string BG_COLOR = "#000000";
 
 static Pango.FontDescription font;
